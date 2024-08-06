@@ -1,0 +1,288 @@
+.all_search_image_size_card {
+    height: 80px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+/* ================ Ag-grid =============== */
+.ag-header-row {
+    background: #EEF9FF;
+}
+
+.ag-header-cell-text {
+    font-size: 16px;
+    color: #150B4F;
+}
+
+.ag-theme-alpine .ag-ltr .ag-cell {
+    display: grid !important;
+    align-items: center !important;
+}
+
+.ag-theme-alpine .ag-ltr .ag-cell span {
+    position: static !important;
+}
+
+.ag-theme-alpine .ag-ltr .ag-cell {
+    border: none !important;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+    border: none;
+}
+
+.ag-theme-alpine .ag-paging-panel>* {
+    font-size: 16px;
+    color: #150B4F;
+}
+
+/* ========== Status Changes */
+.active_status,
+.inactive_status {
+    color: #FFFFFF !important;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    border: none !important;
+}
+
+.active_status {
+    background-color: #1ae28e;
+}
+
+.inactive_status {
+    background-color: #af1455;
+}
+
+/* ======================= Buttons  */
+.btn {
+    font-size: 17px;
+}
+
+.btn-round,
+.btn-primary {
+    background-color: #00AEEF !important;
+    color: white !important;
+    float: right;
+    width: auto;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-round,
+.btn-primary:focus,
+.btn:focus,
+.btn-primary:active,
+.btn:active {
+    box-shadow: none !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #150B4F !important;
+    font-weight: 500;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: #E8E9E9;
+    color: #150B4F !important;
+}
+
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #EEF9FF !important;
+    color: #150B4F !important;
+}
+
+
+/* ========== Icons */
+.fa-eye {
+    color: #150B4F !important;
+    font-size: 21px !important;
+}
+
+.fa-edit {
+    color: #150B4F !important;
+    font-size: 21px !important;
+}
+
+.fa-trash-o {
+    color: #150B4F !important;
+    font-size: 20px !important;
+}
+
+/* =============Table  */
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    background-color: white !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: none !important;
+}
+
+.table thead th {
+    color: #150B4F !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.table.table-hover tbody tr:hover {
+    background: none !important;
+}
+
+.table td,
+.table th {
+    font-size: 16px !important;
+}
+
+/* ============= Forms  */
+
+.form-control::placeholder {
+    font-size: 15px !important;
+}
+
+.form-control {
+    height: 40px;
+    border: 1px solid #868686;
+    font-size: 18px !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgb(165 208 255) !important;
+    border-color: #a5d0ff !important;
+}
+
+.css-13cymwt-control {
+    border: 1px solid #868686 !important;
+    border-color: #868686 !important;
+}
+
+/* =============Model  */
+.modal-header .close {
+    padding: 0.7rem 1rem;
+}
+
+.modal-header .close span {
+    font-size: 29px;
+}
+
+
+/* ========== Loader  */
+
+.common_loader {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.loader_img_style_common {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 8px;
+    position: absolute;
+}
+
+.spinner_load_common {
+    height: 80px;
+    width: 80px;
+}
+
+.common_loader_ag_grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.loader_img_style_common_ag_grid {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 8px;
+    position: absolute;
+}
+
+.spinner_load_common_ag_grid {
+    height: 80px;
+    width: 80px;
+}
+
+/* =========== Bredscum */
+.breadcrumb {
+    background: none !important;
+    margin-bottom: 0;
+}
+
+.breadcome_value li {
+    cursor: pointer;
+}
+
+.breadcome_value li a:hover {
+    color: #150B4F;
+}
+
+.breadcrumb-item.active {
+    color: #150B4F !important;
+    font-weight: 500 !important;
+}
+
+/* ============== Crop css  */
+.crop_modal .modal-body {
+    height: 515px;
+}
+
+.crop_modal .crop_Images {
+    overflow: auto;
+    height: 100%;
+}
+
+.ReactCrop {
+    overflow: initial !important;
+    width: 100% !important;
+}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (min-width: 1024px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width:912px) {}
+
+@media (max-width:820px) {}
+
+@media (max-width:768px) {}
+
+@media(max-width:430px) {}
+
+@media (max-width:428x) {
+    .crop_modal .modal-body {
+        height: 755px;
+    }
+}
+
+@media (max-width:414x) {
+    .crop_modal .modal-body {
+        height: 720px ;
+    }
+}
+
+@media (max-width:394px) {}
+
+@media (max-width:376px) {}
+
+@media (max-width:322px) {}

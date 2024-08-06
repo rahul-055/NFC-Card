@@ -1,0 +1,40 @@
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var USER = {
+    uniqueid: String,
+    cardtype: String,
+    username: String,
+    email: String,
+    password: String,
+    adminpassword: String,
+    displayname: String,
+    headline: String,
+    image: String,
+    banner: String,
+    ispublicprofile: Boolean,
+    ispersonaldetails: Boolean,
+    isbusinessdetails: Boolean,
+    dob: String,
+    bloodgroup: String,
+    location: String,
+    education: String,
+    phonenumber: String,
+    cc: {},
+    designation: String,
+    work: String,
+    businesslocation: String,
+    businessphonenumber: String,
+    businesscc: {},
+    skill: [],
+    applink: [{ id: { type: Schema.Types.ObjectId, ref: 'apps' }, link: String, address: {}, inputtype: String, value: String, cc: {}, documentstatus: Boolean }],
+    applinkstatus: [{ appid: { type: Schema.Types.ObjectId, ref: 'apps' }, status: Boolean }],
+    isinfostatus: Boolean,
+    infoTimeStatus: Date,
+    tapStatus: Boolean,
+    tapTimeStatus: Date,
+    status: Boolean,
+    isdeleted: Boolean,
+    barcodeQr : String
+};
+
+module.exports = USER;

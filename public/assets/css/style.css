@@ -1,0 +1,72 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.navbar-seection{
+	width: 100%;
+	position:sticky;
+	top: 0px;
+	background-color: #f1f1f1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* -=-=-==-=-- */
+.templte-section{
+	width: 100%;
+	height: auto;
+	background:#f1f1f1;
+}
+/* -=-=-=--=-=- */
+.highlight-content h1{
+font-size: 80px;
+font-weight: bolder;
+color:#e32129;
+}
+.highlight-content h4{
+	font-weight: bolder;
+}
+.highlight-content p{
+	margin-bottom: 10px	;
+	color:#E0AC04;
+}
+.body-content h2{
+	font-weight: bolder;
+}
+/* -=-=-=-=-=-=-==- */
+.footer-section{
+	width:100%;
+	height: auto;
+	background-color:#e32129;
+	opacity: 0.8;
+	display: flex;
+	align-items: center;
+}
+
+.footer-left p a{
+	color: white;
+	font-size: 40px;
+}
+.footer-left p{
+	margin-top: 10px;
+}
+
+.footer-right p{
+	margin-bottom:0px;
+	font-size: 20px;
+	color: white;
+	text-align: right;
+}
+
+
+
+@media only screen and (max-width: 992px){
+	.navbar-brand{
+		width: 60px;
+		height: 120px;
+	}
+}
+
+.text-green, .text-info, .text-success, .text-danger, .text-primary, .text-warning, .mail-star.active, .page-title{
+	color: red !important;
+}

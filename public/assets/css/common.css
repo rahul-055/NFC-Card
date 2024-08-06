@@ -1,0 +1,28 @@
+@font-face {
+    font-family:AG-Letterica-Bold-Bold;
+    src: url(../fonts/AG-Letterica-Bold-Bold.ttf);
+}
+@font-face {
+    font-family:coolvetica-compressed-hv;
+    src: url(../fonts/coolvetica-compressed-hv.otf);
+}
+@font-face {
+    font-family:coolvetica-condensed-rg;
+    src: url(../fonts/coolvetica-condensed-rg.otf);
+}
+@font-face {
+    font-family:coolvetica-crammed-rg;
+    src: url(../fonts/coolvetica-crammed-rg.otf);
+}
+@font-face {
+    font-family: coolvetica-rg-it;
+    src: url(../fonts/coolvetica-rg-it.otf);
+}
+@font-face {
+    font-family: coolvetica-rg;
+    src: url(../fonts/coolvetica-rg.otf);
+}
+@font-face {
+    font-family: coolvetica_rg;
+    src: url(../fonts/coolvetica_rg.ttf);
+}
